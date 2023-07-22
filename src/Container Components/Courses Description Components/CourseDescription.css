@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+.course_description h2 {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 4px 0px;
+}
+
+.strikethrough_text {
+  text-decoration: none; /* Remove the default line-through from the text */
+  color: #fff; /* Set the text color */
+  position: relative; /* Make sure the :after pseudo-element is positioned relative to this element */
+}
+
+.strikethrough_text:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 47%; /* Adjust this value to control the position of the line */
+  width: 100%;
+  border-bottom: 3px solid red; /* Set the color of the line */
+}
+
+.courses_selling_points {
+  display: flex;
+  flex-direction: row;
+  margin: 24px 0px;
+}
+
+.courses_selling_points p {
+  color: #fff;
+  margin: 5px;
+  font-family: "Raleway", sans-serif;
+}
+
+.courses_selling_points svg {
+  width: 35px;
+  height: 35px;
+  margin-right: 32px;
+}

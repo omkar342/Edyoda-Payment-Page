@@ -1,0 +1,10 @@
+.join_button {
+  border-radius: 52px;
+  background: linear-gradient(224deg, #0048ff 0%, #0096ff 100%);
+  height: 25px;
+  padding: 2px 21px;
+  color: #fff;
+  margin: 0px 0px 0px 15px;
+  font-size: 14px;
+  font-weight: 700;
+}
