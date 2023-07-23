@@ -1,5 +1,5 @@
 import React from "react";
-import CircularButton from "./CircularButton";
+import CircularButton from "../../Button Components/CircularButton";
 
 const Stages = () => {
   return (

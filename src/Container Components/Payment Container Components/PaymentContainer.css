@@ -22,17 +22,37 @@
   background: linear-gradient(122deg, #0096ff 42.14%, #0048ff 96.7%);
   outline: none;
   border: none;
+  cursor: pointer;
 }
 
 .circle-button p {
-  margin: 0;
+  margin: 0 !important;
   color: #fff;
 }
 
 .button_task p {
   color: #3c4852;
-  font-size: 10px;
-  font-weight: 400;
+  font-size: 10px !important;
+  font-weight: bold;
   font-family: "Roboto", sans-serif;
-  margin: 2px;
+  margin: 2px !important;
+}
+
+.payment_container p {
+  color: #3c4852;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 5px 0px;
+}
+
+.payment_container .razorpay {
+  display: flex;
+  flex-direction: row;
+  margin: 14px 0px 0px 0px;
+}
+
+.payment_container .razorpay img {
+  width: 60px;
+  height: 21px;
 }
