@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import CourseDescription from "./Container Components/Courses Description Components/CourseDescription";
 import PaymentContainer from "./Container Components/Payment Container Components/PaymentContainer";
