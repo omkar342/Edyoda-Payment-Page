@@ -5,7 +5,7 @@
   width: 33%;
   margin: 0px;
   border-radius: 8px;
-  padding: 17px 12px;
+  padding: 13px 12px;
 }
 
 .stages {
@@ -44,7 +44,7 @@
   font-family: "Roboto", sans-serif;
   font-size: 22px;
   font-weight: bold;
-  margin: 15px 0px;
+  margin: 10px 0px;
 }
 
 .payment_container .razorpay {
@@ -74,7 +74,7 @@
 .utility_buttons .cancle_button {
   border: 2px solid #ff0000;
   background: transparent;
-  margin: 11px 5px 11px 0px;
+  margin: 3px 5px 11px 0px;
   padding: 5px 12px;
 }
 
@@ -94,7 +94,7 @@
 .utility_buttons .proceed_button {
   border: transparent;
   background: #47ba68;
-  margin: 11px 0px 11px 5px;
+  margin: 3px 0px 11px 5px;
   padding: 8px 12px;
 }
 
@@ -107,6 +107,12 @@
 
 .checkout_container {
   margin: 10px;
+  border-top: 2px solid #e7e7e7;
+}
+
+.checkout_container p {
+  font-size: 15px;
+  font-weight: normal;
 }
 
 .total_fee {
@@ -114,4 +120,66 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 0px 15px;
+}
+
+.offer_container .discount {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* padding: 0px 15px;s */
+  text-align: left;
+}
+
+.offer_container .discount p {
+  color: #ff0000;
+  margin: 0px;
+}
+
+.offer_container .discount svg {
+  width: 10px;
+  height: 10px;
+}
+
+.offer_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid #ff0000;
+  border-radius: 8px;
+  background: linear-gradient(
+    135deg,
+    rgba(222, 67, 19, 0.2) 0%,
+    rgba(222, 67, 19, 0.2) 0.75%,
+    rgba(222, 67, 19, 0.2) 2.92%,
+    rgba(222, 68, 20, 0.2) 6.37%,
+    rgba(223, 69, 21, 0.2) 10.97%,
+    rgba(223, 72, 22, 0.2) 16.59%,
+    rgba(224, 75, 24, 0.2) 23.1%,
+    rgba(225, 80, 27, 0.2) 30.37%,
+    rgba(227, 86, 31, 0.2) 38.27%,
+    rgba(229, 94, 36, 0.2) 46.66%,
+    rgba(231, 104, 43, 0.2) 55.41%,
+    rgba(235, 117, 51, 0.2) 64.39%,
+    rgba(238, 132, 60, 0.2) 73.47%,
+    rgba(243, 149, 71, 0.2) 82.52%,
+    rgba(248, 169, 84, 0.2) 91.41%,
+    rgba(254, 193, 99, 0.2) 100%
+  );
+  padding: 6px 12px;
+}
+
+.offer_container p {
+  margin: 0;
+}
+
+.offer {
+  font-size: 10px;
+}
+
+.final_fee {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 15px;
+  text-align: left;
 }
