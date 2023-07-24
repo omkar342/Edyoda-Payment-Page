@@ -2,7 +2,7 @@
 
 .payment_container {
   background-color: #fff;
-  width: 35%;
+  width: 33%;
   margin: 0px;
   border-radius: 8px;
   padding: 17px 12px;
@@ -28,11 +28,12 @@
 .circle-button p {
   margin: 0 !important;
   color: #fff;
+  font-size: 13px !important;
 }
 
 .button_task p {
   color: #3c4852;
-  font-size: 10px !important;
+  font-size: 13px !important;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
   margin: 2px !important;
@@ -41,15 +42,15 @@
 .payment_container p {
   color: #3c4852;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 22px;
   font-weight: bold;
-  margin: 5px 0px;
+  margin: 15px 0px;
 }
 
 .payment_container .razorpay {
   display: flex;
   flex-direction: row;
-  margin: 14px 0px 0px 0px;
+  margin: 5px 0px 0px 0px;
 }
 
 .payment_container .razorpay img {
@@ -74,13 +75,13 @@
   border: 2px solid #ff0000;
   background: transparent;
   margin: 11px 5px 11px 0px;
-  padding: 5px 31px;
+  padding: 5px 12px;
 }
 
 .utility_buttons .cancle_button p {
   color: #ff0000;
   padding: 3px 10px;
-  font-size: 10px;
+  font-size: 14px;
   margin: 0;
 }
 
@@ -94,12 +95,23 @@
   border: transparent;
   background: #47ba68;
   margin: 11px 0px 11px 5px;
-  padding: 8px 23px;
+  padding: 8px 12px;
 }
 
 .utility_buttons .proceed_button p {
   color: #fff;
   padding: 3px 10px;
-  font-size: 10px;
+  font-size: 14px;
   margin: 0;
+}
+
+.checkout_container {
+  margin: 10px;
+}
+
+.total_fee {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 15px;
 }
