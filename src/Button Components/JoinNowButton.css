@@ -9,3 +9,7 @@
   font-weight: 700;
   border: none;
 }
+
+.join_button:hover {
+  cursor: pointer;
+}

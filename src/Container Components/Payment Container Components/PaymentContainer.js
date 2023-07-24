@@ -9,8 +9,6 @@ import CheckoutContainer from "./CheckoutContainer";
 const PaymentContainer = () => {
   const [totalFee, setTotalFee] = useState(143);
 
-  console.log(totalFee, "total fee");
-
   return (
     <div className="payment_container">
       <Stages />
